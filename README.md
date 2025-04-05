@@ -32,7 +32,7 @@ This app uses **MediaPipe Face Mesh**, an advanced model for detecting facial la
 
 **1. Clone the repository**
 
-git clone https://github.com/yourusername/face-swap-app.git
+git clone https://github.com/ErikElcsics/Face-Swap-App-Using-Mediapipe-OpenCV-Scikit-Image-Pillow-Streamlit-Python.git
 cd face-swap-app
 
 
@@ -49,14 +49,11 @@ pip install -r requirements.txt
 
 **4. Run the app**
 
-streamlit run app.py
-
+Launch the app using the command:
+   
+   streamlit run FaceSwapApp.py
 
 ## 🚀 How to Use the App
-
-1. Launch the app using the command:
-   
-   streamlit run app.py
    
 2. **Upload Two Images**: Use the file upload section to upload two face images.
 3. **Face Swap**: After both images are uploaded, click the "✨ Swap Faces" button to process the swap.
